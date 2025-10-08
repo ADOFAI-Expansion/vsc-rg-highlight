@@ -1,0 +1,98 @@
+{
+  "name": "vsc-rg-highlight",
+  "displayName": "Rhythm Game Syntax Highlighter",
+  "description": "Syntax highlighting for Rhythm Games(wip)",
+  "version": "1.2.1",
+  "publisher": "xbodwf",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:osu",
+    "onLanguage:adofai"
+  ],
+  "keywords": [
+    "osu",
+    "beatmap",
+    "adofai",
+    "rhythm game",
+    "syntax highlighting"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "@types/vscode": "^1.74.0",
+    "typescript": "^5.0.4"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "osu",
+        "aliases": [
+          "OSU Beatmap",
+          "osu"
+        ],
+        "extensions": [
+          ".osu"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "adofai",
+        "aliases": [
+          "ADOFAI Level",
+          "adofai"
+        ],
+        "extensions": [
+          ".adofai"
+        ],
+        "mimetypes": ["application/json"],
+        "configuration": "./adofai-language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "osu",
+        "scopeName": "source.osu",
+        "path": "./syntaxes/osu.tmLanguage.json"
+      },
+      {
+        "language": "adofai",
+        "scopeName": "source.adofai",
+        "path": "./syntaxes/adofai.tmLanguage.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "adofai.convertToJson",
+        "title": "ConvertToJson",
+        "icon": "$(json)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "adofai.convertToJson",
+          "when": "resourceExtname == .adofai",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xbodwf/vsc-rg-highlight"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jsonc-parser": "^3.3.1"
+  }
+}

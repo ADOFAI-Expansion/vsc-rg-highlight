@@ -1,0 +1,130 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "A Dance of Fire and Ice Level",
+  "scopeName": "source.adofai",
+  "fileTypes": ["adofai"],
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#value" }
+  ],
+  "repository": {
+    "value": {
+      "patterns": [
+        { "include": "#constant" },
+        { "include": "#number" },
+        { "include": "#string" },
+        { "include": "#array" },
+        { "include": "#object" },
+        { "include": "#specialKeys" }
+      ]
+    },
+    "specialKeys": {
+      "patterns": [{
+        "name": "keyword.source.adofai",
+        "match": "(\"angleData\"|\"settings\"|\"actions\"|\"decorations\"|\"version\"|\"artist\"|\"specialArtistType\"|\"artistPermission\"|\"song\"|\"author\"|\"separateCountdownTime\"|\"previewImage\"|\"previewIcon\"|\"previewIconColor\"|\"previewSongStart\"|\"previewSongDuration\"|\"seizureWarning\"|\"levelDesc\"|\"levelTags\"|\"artistLinks\"|\"difficulty\"|\"requiredMods\"|\"songFilename\"|\"bpm\"|\"volume\"|\"offset\"|\"pitch\"|\"hitsound\"|\"hitsoundVolume\"|\"countdownTicks\"|\"trackColorType\"|\"trackColor\"|\"secondaryTrackColor\"|\"trackColorAnimDuration\"|\"trackColorPulse\"|\"trackPulseLength\"|\"trackStyle\"|\"trackTexture\"|\"trackTextureScale\"|\"trackGlowIntensity\"|\"trackAnimation\"|\"beatsAhead\"|\"trackDisappearAnimation\"|\"beatsBehind\"|\"backgroundColor\"|\"showDefaultBGIfNoImage\"|\"showDefaultBGTile\"|\"defaultBGTileColor\"|\"defaultBGShapeType\"|\"defaultBGShapeColor\"|\"bgImage\"|\"bgImageColor\"|\"parallax\"|\"bgDisplayMode\"|\"imageSmoothing\"|\"lockRot\"|\"loopBG\"|\"scalingRatio\"|\"relativeTo\"|\"position\"|\"rotation\"|\"zoom\"|\"pulseOnFloor\"|\"bgVideo\"|\"loopVideo\"|\"vidOffset\"|\"floorIconOutlines\"|\"stickToFloors\"|\"planetEase\"|\"planetEaseParts\"|\"planetEasePartBehavior\"|\"defaultTextColor\"|\"defaultTextShadowColor\"|\"congratsText\"|\"perfectText\"|\"legacyFlash\"|\"legacyCamRelativeTo\"|\"legacySpriteTiles\"|\"speedTrialAim\"|\"floor\"|\"eventType\"|\"speedType\"|\"beatsPerMinute\"|\"bpmMultiplier\"|\"angleOffset\"|\"floor\"|\"eventType\"|\"floor\"|\"eventType\"|\"tileOffset\"|\"floor\"|\"eventType\"|\"gameSound\"|\"hitsound\"|\"hitsoundVolume\"|\"floor\"|\"eventType\"|\"hitsound\"|\"hitsoundVolume\"|\"angleOffset\"|\"eventTag\"|\"floor\"|\"eventType\"|\"ease\"|\"easeParts\"|\"easePartBehavior\"|\"floor\"|\"eventType\"|\"duration\"|\"countdownTicks\"|\"angleCorrectionDir\"|\"floor\"|\"eventType\"|\"enabled\"|\"showStatusText\"|\"safetyTiles\"|\"floor\"|\"eventType\"|\"duration\"|\"targetPlanet\"|\"scale\"|\"angleOffset\"|\"ease\"|\"eventTag\"|\"floor\"|\"eventType\"|\"trackColorType\"|\"trackColor\"|\"secondaryTrackColor\"|\"trackColorAnimDuration\"|\"trackColorPulse\"|\"trackPulseLength\"|\"trackStyle\"|\"trackTexture\"|\"trackTextureScale\"|\"trackGlowIntensity\"|\"floorIconOutlines\"|\"floor\"|\"eventType\"|\"trackAnimation\"|\"beatsAhead\"|\"trackDisappearAnimation\"|\"beatsBehind\"|\"floor\"|\"eventType\"|\"startTile\"|\"endTile\"|\"gapLength\"|\"duration\"|\"trackColorType\"|\"trackColor\"|\"secondaryTrackColor\"|\"trackColorAnimDuration\"|\"trackColorPulse\"|\"trackPulseLength\"|\"trackStyle\"|\"trackGlowIntensity\"|\"angleOffset\"|\"ease\"|\"eventTag\"|\"floor\"|\"eventType\"|\"startTile\"|\"endTile\"|\"gapLength\"|\"duration\"|\"positionOffset\"|\"rotationOffset\"|\"scale\"|\"opacity\"|\"angleOffset\"|\"ease\"|\"maxVfxOnly\"|\"eventTag\"|\"floor\"|\"eventType\"|\"positionOffset\"|\"relativeTo\"|\"rotation\"|\"scale\"|\"opacity\"|\"justThisTile\"|\"editorOnly\"|\"stickToFloors\"|\"floor\"|\"eventType\"|\"duration\"|\"tag\"|\"visible\"|\"relativeTo\"|\"decorationImage\"|\"positionOffset\"|\"pivotOffset\"|\"rotationOffset\"|\"scale\"|\"color\"|\"opacity\"|\"depth\"|\"parallax\"|\"parallaxOffset\"|\"angleOffset\"|\"ease\"|\"eventTag\"|\"maskingType\"|\"useMaskingDepth\"|\"maskingFrontDepth\"|\"maskingBackDepth\"|\"floor\"|\"eventType\"|\"decText\"|\"tag\"|\"angleOffset\"|\"eventTag\"|\"floor\"|\"eventType\"|\"duration\"|\"tag\"|\"planetColor\"|\"planetTailColor\"|\"trackAngle\"|\"trackColor\"|\"trackOpacity\"|\"trackStyle\"|\"trackIcon\"|\"trackIconAngle\"|\"trackRedSwirl\"|\"trackGraySetSpeedIcon\"|\"trackGlowEnabled\"|\"trackGlowColor\"|\"angleOffset\"|\"ease\"|\"eventTag\"|\"floor\"|\"eventType\"|\"color\"|\"bgImage\"|\"imageColor\"|\"parallax\"|\"bgDisplayMode\"|\"imageSmoothing\"|\"lockRot\"|\"loopBG\"|\"scalingRatio\"|\"angleOffset\"|\"eventTag\"|\"floor\"|\"eventType\"|\"duration\"|\"plane\"|\"startColor\"|\"startOpacity\"|\"endColor\"|\"endOpacity\"|\"angleOffset\"|\"ease\"|\"eventTag\"|\"floor\"|\"eventType\"|\"duration\"|\"relativeTo\"|\"position\"|\"rotation\"|\"zoom\"|\"angleOffset\"|\"ease\"|\"dontDisable\"|\"minVfxOnly\"|\"eventTag\"|\"floor\"|\"eventType\"|\"filter\"|\"enabled\"|\"intensity\"|\"duration\"|\"ease\"|\"disableOthers\"|\"angleOffset\"|\"eventTag\"|\"floor\"|\"eventType\"|\"enabled\"|\"angleOffset\"|\"eventTag\"|\"floor\"|\"eventType\"|\"duration\"|\"strength\"|\"intensity\"|\"ease\"|\"fadeOut\"|\"angleOffset\"|\"eventTag\"|\"floor\"|\"eventType\"|\"enabled\"|\"threshold\"|\"intensity\"|\"color\"|\"duration\"|\"ease\"|\"angleOffset\"|\"eventTag\"|\"floor\"|\"eventType\"|\"duration\"|\"tile\"|\"angleOffset\"|\"ease\"|\"eventTag\"|\"floor\"|\"eventType\"|\"scroll\"|\"angleOffset\"|\"eventTag\"|\"floor\"|\"eventType\"|\"repeatType\"|\"repetitions\"|\"floorCount\"|\"interval\"|\"executeOnCurrentFloor\"|\"tag\"|\"floor\"|\"eventType\"|\"perfectTag\"|\"hitTag\"|\"earlyPerfectTag\"|\"latePerfectTag\"|\"barelyTag\"|\"veryEarlyTag\"|\"veryLateTag\"|\"missTag\"|\"tooEarlyTag\"|\"tooLateTag\"|\"lossTag\"|\"floor\"|\"eventType\"|\"comment\"|\"floor\"|\"eventType\"|\"floor\"|\"eventType\"|\"holdStartSound\"|\"holdLoopSound\"|\"holdEndSound\"|\"holdMidSound\"|\"holdMidSoundType\"|\"holdMidSoundDelay\"|\"holdMidSoundTimingRelativeTo\"|\"holdSoundVolume\"|\"floor\"|\"eventType\"|\"planets\"|\"floor\"|\"eventType\"|\"position\"|\"floor\"|\"eventType\"|\"position\"|\"size\"|\"floor\"|\"eventType\"|\"hideJudgment\"|\"hideTileIcon\"|\"floor\"|\"eventType\"|\"scale\"|\"floor\"|\"eventType\"|\"scale\"|\"floor\"|\"eventType\"|\"duration\"|\"size\"|\"positionOffset\"|\"outTime\"|\"outEase\"|\"hitsoundOnBeats\"|\"hitsoundOffBeats\"|\"countdownTicks\"|\"angleCorrectionDir\"|\"floor\"|\"eventType\"|\"duration\"|\"distanceMultiplier\"|\"landingAnimation\"|\"floor\"|\"eventType\"|\"decorationImage\"|\"position\"|\"relativeTo\"|\"pivotOffset\"|\"rotation\"|\"lockRotation\"|\"scale\"|\"lockScale\"|\"tile\"|\"color\"|\"opacity\"|\"depth\"|\"parallax\"|\"parallaxOffset\"|\"tag\"|\"imageSmoothing\"|\"blendMode\"|\"maskingType\"|\"useMaskingDepth\"|\"maskingFrontDepth\"|\"maskingBackDepth\"|\"hitbox\"|\"hitboxEventTag\"|\"failHitboxType\"|\"failHitboxScale\"|\"failHitboxOffset\"|\"failHitboxRotation\"|\"components\"|\"eventType\"|\"decText\"|\"font\"|\"position\"|\"relativeTo\"|\"pivotOffset\"|\"rotation\"|\"lockRotation\"|\"scale\"|\"lockScale\"|\"color\"|\"opacity\"|\"depth\"|\"parallax\"|\"parallaxOffset\"|\"tag\"|\"eventType\"|\"objectType\"|\"planetColorType\"|\"planetColor\"|\"planetTailColor\"|\"trackType\"|\"trackAngle\"|\"trackColor\"|\"trackOpacity\"|\"trackStyle\"|\"trackIcon\"|\"trackIconAngle\"|\"trackRedSwirl\"|\"trackGraySetSpeedIcon\"|\"trackSetSpeedIconBpm\"|\"trackGlowEnabled\"|\"trackGlowColor\"|\"position\"|\"relativeTo\"|\"pivotOffset\"|\"rotation\"|\"lockRotation\"|\"scale\"|\"lockScale\"|\"depth\"|\"parallax\"|\"parallaxOffset\"|\"tag|\"tileShape|\"legacyTween|\"disableV15Features\")(?=\\:)"
+      }]
+    },
+    "constant": {
+      "match": "\\b(?:true|false|null)\\b",
+      "name": "constant.language.adofai"
+    },
+    "number": {
+      "match": "-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][+-]?\\d+)?",
+      "name": "constant.numeric.adofai"
+    },
+    "string": {
+      "begin": "\"",
+      "beginCaptures": {
+        "0": { "name": "punctuation.definition.string.begin.adofai" }
+      },
+      "end": "\"",
+      "endCaptures": {
+        "0": { "name": "punctuation.definition.string.end.adofai" }
+      },
+      "name": "string.quoted.double.adofai",
+      "patterns": [
+        {
+          "match": "\\\\(?:[\"\\\\/bfnrt]|u[0-9a-fA-F]{4})",
+          "name": "constant.character.escape.adofai"
+        },
+        {
+          "match": "\\\\.",
+          "name": "invalid.illegal.unrecognized-string-escape.adofai"
+        }
+      ]
+    },
+    "array": {
+      "begin": "\\[",
+      "beginCaptures": {
+        "0": { "name": "punctuation.definition.array.begin.adofai" }
+      },
+      "end": "\\]",
+      "endCaptures": {
+        "0": { "name": "punctuation.definition.array.end.adofai" }
+      },
+      "name": "meta.structure.array.adofai",
+      "patterns": [
+        { "include": "#value" },
+        {
+          "match": ",",
+          "name": "punctuation.separator.array.adofai"
+        }
+      ]
+    },
+    "object": {
+      "begin": "\\{",
+      "beginCaptures": {
+        "0": { "name": "punctuation.definition.dictionary.begin.adofai" }
+      },
+      "end": "\\}",
+      "endCaptures": {
+        "0": { "name": "punctuation.definition.dictionary.end.adofai" }
+      },
+      "name": "meta.structure.dictionary.adofai",
+      "patterns": [
+        {
+          "begin": "\"",
+          "beginCaptures": {
+            "0": { "name": "punctuation.definition.string.begin.adofai" }
+          },
+          "end": "\"",
+          "endCaptures": {
+            "0": { "name": "punctuation.definition.string.end.adofai" }
+          },
+          "name": "string.key.adofai",
+          "patterns": [
+            {
+              "match": "\\\\(?:[\"\\\\/bfnrt]|u[0-9a-fA-F]{4})",
+              "name": "constant.character.escape.adofai"
+            }
+          ]
+        },
+        {
+          "begin": ":",
+          "beginCaptures": {
+            "0": { "name": "punctuation.separator.key-value.adofai" }
+          },
+          "end": "(?=,|\\})",
+          "patterns": [{ "include": "#value" }]
+        },
+        {
+          "match": ",",
+          "name": "punctuation.separator.dictionary.adofai"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "match": "//.*$",
+          "name": "comment.line.double-slash.adofai"
+        },
+        {
+          "begin": "/\\*",
+          "end": "\\*/",
+          "name": "comment.block.adofai"
+        }
+      ]
+    }
+  }
+}

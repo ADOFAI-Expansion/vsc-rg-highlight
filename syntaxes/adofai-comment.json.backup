@@ -1,0 +1,92 @@
+{
+	"angleData": [0], //方向数据
+	"pathData": "RUUUUUUUURRRRR", //方向数据(旧)
+	"settings":
+	{
+		"version": 14,  //adofai文件的版本
+		"artist": "1", //艺术家。
+		"specialArtistType": "None", //指定艺术家的类型
+		"artistPermission": "", //艺术家的授权文件
+		"song": "", //歌曲名称
+		"author": "", //关卡作者，如有多个请以 , 分割。
+		"separateCountdownTime": true, //使用单独的倒计时时间
+		"previewImage": "", //预览传送门图片
+		"previewIcon": "", //预览关卡图标
+		"previewIconColor": "003f52",  //预览关卡图标颜色
+		"previewSongStart": 0, //歌曲预览开始时间
+		"previewSongDuration": 10, //歌曲预览时长(秒)
+		"seizureWarning": false, //光敏性癫痫警告
+		"levelDesc": "", //关卡描述
+		"levelTags": "", 
+		"artistLinks": "", //艺术家链接
+		"speedTrialAim": 0, 
+		"difficulty": 1, //难度
+		"requiredMods": [], //需要的第三方Mod
+		"songFilename": "Kobaryo - SUPER KEY GENERATOR - 07 Heaven's Gateway -feat. Persian Groovies-.ogg", //歌曲文件名
+		"bpm": 168, //指定初始的每分钟节拍数
+		"volume": 100, //指定歌曲的音量
+		"offset": 62, //指定歌曲的偏移
+		"pitch": 100, //指定歌曲的音高
+		"hitsound": "Kick", //打拍音
+		"hitsoundVolume": 100, //打拍音音量
+		"countdownTicks": 4, //倒计时时长
+		"songURL": "", //歌曲链接
+		"trackColorType": "Single",  //轨道颜色类型
+		"trackColor": "ffffffff", //轨道颜色
+		"secondaryTrackColor": "ffffff", //第二轨道颜色
+		"trackColorAnimDuration": 2, //轨道颜色动画时长
+		"trackColorPulse": "None", //轨道颜色脉冲
+		"trackPulseLength": 10, //轨道脉冲长度
+		"trackStyle": "Neon", //轨道类型
+		"trackTexture": "", //轨道纹理
+		"trackTextureScale": 1, //轨道纹理大小
+		"trackGlowIntensity": 50, //轨道辉度
+		"trackAnimation": "Fade", //轨道出现动画
+		"beatsAhead": 20, //轨道出现节拍
+		"trackDisappearAnimation": "Fade", //轨道消失动画
+		"beatsBehind": 0, //轨道消失节拍
+		"backgroundColor": "000000", 
+		"showDefaultBGIfNoImage": true, 
+		"showDefaultBGTile": false, 
+		"defaultBGTileColor": "101121", 
+		"defaultBGShapeType": "Disabled", 
+		"defaultBGShapeColor": "ffffff", 
+		"bgImage": "", //(可选)背景图片文件
+		"bgImageColor": "ffffff", //背景图片颜色
+		"parallax": [100, 100], //平行
+		"bgDisplayMode": "FitToScreen", //图片显示方式
+		"imageSmoothing": true, 
+		"lockRot": false, //旋转锁定(背景)
+		"loopBG": false, //循环背景
+		"scalingRatio": 100,
+		"relativeTo": "Player", //摄像机关联
+		"position": [0, 0], //摄像机位置偏移
+		"rotation": 0, //摄像机旋转
+		"zoom": 400, //摄像机缩放
+		"pulseOnFloor": true, //黏性轨道
+		"bgVideo": "", //(可选)视频背景文件
+		"loopVideo": false, //是否重复播放
+		"vidOffset": 0, //视频偏移
+		"floorIconOutlines": true, 
+		"stickToFloors": true, 
+		"planetEase": "Linear", //星球轨道缓速
+		"planetEaseParts": 1, //星球缓速部分
+		"planetEasePartBehavior": "Mirror", //星球缓速行为
+		"defaultTextColor": "ffffff", //默认文本颜色
+		"defaultTextShadowColor": "00000050", //默认文本阴影颜色
+		"congratsText": "", //通关提示恭喜文本
+		"perfectText": "", //完美无瑕! 提示文本
+		"legacyFlash": false , //启用旧版Flash
+		"legacyCamRelativeTo": false , //启用旧版摄像机关联
+		"legacySpriteTiles": false , //启用旧版Tile
+		"legacyTween": true //启用旧版缓速
+	},
+	"actions"://事件
+	[
+		
+	],
+	"decorations": //装饰物
+	[
+		
+	]
+}

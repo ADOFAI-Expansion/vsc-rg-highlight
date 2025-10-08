@@ -1,0 +1,286 @@
+{
+  "name": "OSU Beatmap",
+  "scopeName": "source.osu",
+  "patterns": [
+    {
+      "include": "#version-declaration"
+    },
+    {
+      "include": "#section-headers"
+    },
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#key-value-pairs"
+    },
+    {
+      "include": "#timing-points"
+    },
+    {
+      "include": "#hit-objects"
+    },
+    {
+      "include": "#colors"
+    },
+    {
+      "include": "#events"
+    },
+    {
+      "include": "#storyboard-commands"
+    }
+  ],
+  "repository": {
+    "version-declaration": {
+      "match": "^osu file format v\\d+",
+      "name": "keyword.control.osu"
+    },
+    "section-headers": {
+      "match": "^\\[([A-Za-z]+)\\]",
+      "name": "entity.name.section.osu",
+      "captures": {
+        "1": {
+          "name": "entity.name.tag.osu"
+        }
+      }
+    },
+    "comments": {
+      "match": "//.*$",
+      "name": "comment.line.double-slash.osu"
+    },
+    "key-value-pairs": {
+      "match": "^([A-Za-z][A-Za-z0-9]*)(\\s*:\\s*)(.*)$",
+      "captures": {
+        "1": {
+          "name": "variable.other.property.osu"
+        },
+        "2": {
+          "name": "punctuation.separator.key-value.osu"
+        },
+        "3": {
+          "patterns": [
+            {
+              "include": "#values"
+            }
+          ]
+        }
+      }
+    },
+    "values": {
+      "patterns": [
+        {
+          "match": "\\b\\d+(\\.\\d+)?\\b",
+          "name": "constant.numeric.osu"
+        },
+        {
+          "match": "\\b(true|false|0|1)\\b",
+          "name": "constant.language.boolean.osu"
+        },
+        {
+          "match": "\"[^\"]*\"",
+          "name": "string.quoted.double.osu"
+        },
+        {
+          "match": "[^,\\s]+\\.(mp3|wav|ogg|png|jpg|jpeg|avi|mp4)",
+          "name": "string.other.filename.osu"
+        }
+      ]
+    },
+    "timing-points": {
+      "match": "^(-?\\d+(?:\\.\\d+)?),(-?\\d+(?:\\.\\d+)?),(\\d+),(\\d+),(\\d+),(\\d+),(\\d+),(\\d+)$",
+      "captures": {
+        "1": {
+          "name": "constant.numeric.timing.offset.osu"
+        },
+        "2": {
+          "name": "constant.numeric.timing.bpm.osu"
+        },
+        "3": {
+          "name": "constant.numeric.timing.meter.osu"
+        },
+        "4": {
+          "name": "constant.numeric.timing.sampleset.osu"
+        },
+        "5": {
+          "name": "constant.numeric.timing.sampleindex.osu"
+        },
+        "6": {
+          "name": "constant.numeric.timing.volume.osu"
+        },
+        "7": {
+          "name": "constant.numeric.timing.uninherited.osu"
+        },
+        "8": {
+          "name": "constant.numeric.timing.effects.osu"
+        }
+      }
+    },
+    "hit-objects": {
+      "match": "^(\\d+),(\\d+),(\\d+),(\\d+),(\\d+),(.*)$",
+      "captures": {
+        "1": {
+          "name": "constant.numeric.hitobject.x.osu"
+        },
+        "2": {
+          "name": "constant.numeric.hitobject.y.osu"
+        },
+        "3": {
+          "name": "constant.numeric.hitobject.time.osu"
+        },
+        "4": {
+          "name": "constant.numeric.hitobject.type.osu"
+        },
+        "5": {
+          "name": "constant.numeric.hitobject.hitsound.osu"
+        },
+        "6": {
+          "patterns": [
+            {
+              "include": "#slider-data"
+            },
+            {
+              "include": "#spinner-data"
+            },
+            {
+              "include": "#hit-sample"
+            }
+          ]
+        }
+      }
+    },
+    "slider-data": {
+      "match": "([PBLC])\\|([^,]+)",
+      "captures": {
+        "1": {
+          "name": "keyword.other.slider-type.osu"
+        },
+        "2": {
+          "name": "string.other.slider-points.osu"
+        }
+      }
+    },
+    "spinner-data": {
+      "match": "\\d+,\\d+,\\d+",
+      "name": "constant.numeric.spinner.osu"
+    },
+    "hit-sample": {
+      "match": "(\\d+):(\\d+):(\\d+):(\\d+):",
+      "captures": {
+        "1": {
+          "name": "constant.numeric.sample.normal.osu"
+        },
+        "2": {
+          "name": "constant.numeric.sample.addition.osu"
+        },
+        "3": {
+          "name": "constant.numeric.sample.index.osu"
+        },
+        "4": {
+          "name": "constant.numeric.sample.volume.osu"
+        }
+      }
+    },
+    "colors": {
+      "match": "^(Combo\\d+)\\s*:\\s*(\\d+),(\\d+),(\\d+)$",
+      "captures": {
+        "1": {
+          "name": "variable.other.color-name.osu"
+        },
+        "2": {
+          "name": "constant.numeric.color.red.osu"
+        },
+        "3": {
+          "name": "constant.numeric.color.green.osu"
+        },
+        "4": {
+          "name": "constant.numeric.color.blue.osu"
+        }
+      }
+    },
+    "events": {
+      "patterns": [
+        {
+          "match": "^(\\d+),(\\d+),\"([^\"]+)\",(\\d+),(\\d+)$",
+          "captures": {
+            "1": {
+              "name": "constant.numeric.event.type.osu"
+            },
+            "2": {
+              "name": "constant.numeric.event.starttime.osu"
+            },
+            "3": {
+              "name": "string.quoted.double.filename.osu"
+            },
+            "4": {
+              "name": "constant.numeric.event.x.osu"
+            },
+            "5": {
+              "name": "constant.numeric.event.y.osu"
+            }
+          }
+        },
+        {
+          "match": "^(\\d+),(\\d+),(\\d+)$",
+          "captures": {
+            "1": {
+              "name": "constant.numeric.break.type.osu"
+            },
+            "2": {
+              "name": "constant.numeric.break.start.osu"
+            },
+            "3": {
+              "name": "constant.numeric.break.end.osu"
+            }
+          }
+        }
+      ]
+    },
+    "storyboard-commands": {
+      "patterns": [
+        {
+          "match": "^(Sprite|Animation),(Background|Fail|Pass|Foreground),(TopLeft|TopCentre|TopRight|CentreLeft|Centre|CentreRight|BottomLeft|BottomCentre|BottomRight),\"([^\"]+)\",(\\d+),(\\d+)$",
+          "captures": {
+            "1": {
+              "name": "keyword.other.storyboard.object.osu"
+            },
+            "2": {
+              "name": "keyword.other.storyboard.layer.osu"
+            },
+            "3": {
+              "name": "keyword.other.storyboard.origin.osu"
+            },
+            "4": {
+              "name": "string.quoted.double.filename.osu"
+            },
+            "5": {
+              "name": "constant.numeric.storyboard.x.osu"
+            },
+            "6": {
+              "name": "constant.numeric.storyboard.y.osu"
+            }
+          }
+        },
+        {
+          "match": "^\\s+([FMVSCPR]),(\\d+),(\\d+),?(\\d+)?,(.*)",
+          "captures": {
+            "1": {
+              "name": "keyword.other.storyboard.command.osu"
+            },
+            "2": {
+              "name": "constant.numeric.storyboard.easing.osu"
+            },
+            "3": {
+              "name": "constant.numeric.storyboard.starttime.osu"
+            },
+            "4": {
+              "name": "constant.numeric.storyboard.endtime.osu"
+            },
+            "5": {
+              "name": "string.other.storyboard.params.osu"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
