@@ -7,37 +7,37 @@
     },
     "pathData": {
       "en": "Direction data (old)",
-      "zh": "方向数据(旧)",
+      "zh": "方向数据（旧）",
       "ko": "방향 데이터(구)"
     },
     "version": {
-      "en": "ADOfAI file version",
-      "zh": "adofai文件的版本",
-      "ko": "ADOfAI 파일 버전"
+      "en": "ADOFAI file version",
+      "zh": "ADOFAI文件版本",
+      "ko": "ADOFAI 파일 버전"
     },
     "artist": {
       "en": "Artist",
-      "zh": "艺术家",
+      "zh": "音乐作者",
       "ko": "아티스트"
     },
     "specialArtistType": {
       "en": "Specify artist type",
-      "zh": "指定艺术家的类型",
+      "zh": "特殊授权",
       "ko": "아티스트 유형 지정"
     },
     "artistPermission": {
       "en": "Artist's authorization document",
-      "zh": "艺术家的授权文件",
+      "zh": "艺术家授权证明",
       "ko": "아티스트의 권한 문서"
     },
     "song": {
       "en": "Song name",
-      "zh": "歌曲名称",
+      "zh": "（关卡设置）歌曲名称",
       "ko": "곡 이름"
     },
     "author": {
       "en": "Level author, separate with commas if multiple",
-      "zh": "关卡作者，如有多个请以 , 分割",
+      "zh": "关卡作者",
       "ko": "레벨 제작자, 여러 명일 경우 쉼표로 구분"
     },
     "separateCountdownTime": {
@@ -47,32 +47,32 @@
     },
     "previewImage": {
       "en": "Preview portal image",
-      "zh": "预览传送门图片",
+      "zh": "传送门图片",
       "ko": "미리보기 포탈 이미지"
     },
     "previewIcon": {
       "en": "Preview level icon",
-      "zh": "预览关卡图标",
+      "zh": "关卡图标",
       "ko": "미리보기 레벨 아이콘"
     },
     "previewIconColor": {
       "en": "Preview level icon color",
-      "zh": "预览关卡图标颜色",
+      "zh": "关卡图标颜色",
       "ko": "미리보기 레벨 아이콘 색상"
     },
     "previewSongStart": {
       "en": "Song preview start time",
-      "zh": "歌曲预览开始时间",
+      "zh": "歌曲预览开始",
       "ko": "곡 미리보기 시작 시간"
     },
     "previewSongDuration": {
       "en": "Song preview duration (seconds)",
-      "zh": "歌曲预览时长(秒)",
+      "zh": "歌曲预览时长（秒）",
       "ko": "곡 미리보기 길이(초)"
     },
     "seizureWarning": {
       "en": "Photosensitive epilepsy warning",
-      "zh": "光敏性癫痫警告",
+      "zh": "光敏感性癫痫警告",
       "ko": "광과민성 간질 경고"
     },
     "levelDesc": {
@@ -92,7 +92,7 @@
     },
     "speedTrialAim": {
       "en": "Speed trial target",
-      "zh": "速度试炼目标",
+      "zh": "飙速模式倍速目标",
       "ko": "속도 시험 목표"
     },
     "difficulty": {
@@ -107,42 +107,42 @@
     },
     "songFilename": {
       "en": "Song file name",
-      "zh": "歌曲文件名",
+      "zh": "（歌曲设置）歌曲文件名",
       "ko": "곡 파일 이름"
     },
     "bpm": {
       "en": "Specify initial beats per minute",
-      "zh": "指定初始的每分钟节拍数",
+      "zh": "初始BPM",
       "ko": "초기 분당 비트 수 지정"
     },
     "volume": {
       "en": "Specify song volume",
-      "zh": "指定歌曲的音量",
+      "zh": "歌曲音量",
       "ko": "곡의 볼륨 지정"
     },
     "offset": {
       "en": "Specify song offset",
-      "zh": "指定歌曲的偏移",
+      "zh": "歌曲偏移",
       "ko": "곡의 오프셋 지정"
     },
     "pitch": {
       "en": "Specify song pitch",
-      "zh": "指定歌曲的音高",
+      "zh": "歌曲音高",
       "ko": "곡의 피치 지정"
     },
     "hitsound": {
       "en": "Hit sound",
-      "zh": "打拍音",
+      "zh": "打拍声",
       "ko": "히트 사운드"
     },
     "hitsoundVolume": {
       "en": "Hit sound volume",
-      "zh": "打拍音音量",
+      "zh": "打拍声音量",
       "ko": "히트 사운드 볼륨"
     },
     "countdownTicks": {
       "en": "Countdown duration",
-      "zh": "倒计时时长",
+      "zh": "计数滴答",
       "ko": "카운트다운 길이"
     },
     "songURL": {
@@ -157,42 +157,42 @@
     },
     "trackColor": {
       "en": "Track color",
-      "zh": "轨道颜色",
+      "zh": "轨道主色调",
       "ko": "트랙 색상"
     },
     "secondaryTrackColor": {
       "en": "Secondary track color",
-      "zh": "第二轨道颜色",
+      "zh": "轨道副色调",
       "ko": "두 번째 트랙 색상"
     },
     "trackColorAnimDuration": {
       "en": "Track color animation duration",
-      "zh": "轨道颜色动画时长",
+      "zh": "色彩动画间隔",
       "ko": "트랙 색상 애니메이션 길이"
     },
     "trackColorPulse": {
       "en": "Track color pulse",
-      "zh": "轨道颜色脉冲",
+      "zh": "颜色脉冲类型",
       "ko": "트랙 색상 펄스"
     },
     "trackPulseLength": {
       "en": "Track pulse length",
-      "zh": "轨道脉冲长度",
+      "zh": "颜色脉冲长度",
       "ko": "트랙 펄스 길이"
     },
     "trackStyle": {
       "en": "Track type",
-      "zh": "轨道类型",
+      "zh": "轨道风格",
       "ko": "트랙 유형"
     },
     "trackTexture": {
       "en": "Track texture",
-      "zh": "轨道纹理",
+      "zh": "轨道贴图",
       "ko": "트랙 텍스처"
     },
     "trackTextureScale": {
       "en": "Track texture size",
-      "zh": "轨道纹理大小",
+      "zh": "轨道贴图缩放",
       "ko": "트랙 텍스처 크기"
     },
     "trackGlowIntensity": {
@@ -207,7 +207,7 @@
     },
     "beatsAhead": {
       "en": "Track appearance beats",
-      "zh": "轨道出现节拍",
+      "zh": "轨道动画前节拍",
       "ko": "트랙 나타남 비트"
     },
     "trackDisappearAnimation": {
@@ -217,7 +217,7 @@
     },
     "beatsBehind": {
       "en": "Track disappearance beats",
-      "zh": "轨道消失节拍",
+      "zh": "轨道动画后节拍",
       "ko": "트랙 사라짐 비트"
     },
     "backgroundColor": {
@@ -232,27 +232,27 @@
     },
     "showDefaultBGTile": {
       "en": "Show default background tile",
-      "zh": "显示默认背景Tile",
+      "zh": "显示教程背景图案",
       "ko": "기본 배경 타일 표시"
     },
     "defaultBGTileColor": {
       "en": "Default background tile color",
-      "zh": "默认背景Tile颜色",
+      "zh": "教程背景图案颜色",
       "ko": "기본 배경 타일 색상"
     },
     "defaultBGShapeType": {
       "en": "Default background shape type",
-      "zh": "默认背景形状类型",
+      "zh": "教程背景图形类型",
       "ko": "기본 배경 모양 유형"
     },
     "defaultBGShapeColor": {
       "en": "Default background shape color",
-      "zh": "默认背景形状颜色",
+      "zh": "教程背景图形颜色",
       "ko": "기본 배경 모양 색상"
     },
     "bgImage": {
       "en": "(Optional) Background image file",
-      "zh": "(可选)背景图片文件",
+      "zh": "（可选）背景图片文件",
       "ko": "(선택 사항) 배경 이미지 파일"
     },
     "bgImageColor": {
@@ -262,22 +262,22 @@
     },
     "parallax": {
       "en": "Parallax",
-      "zh": "平行",
+      "zh": "（背景设置）平行",
       "ko": "패럴랙스"
     },
     "bgDisplayMode": {
       "en": "Image display mode",
-      "zh": "图片显示方式",
+      "zh": "（背景设置）显示模式",
       "ko": "이미지 표시 모드"
     },
     "imageSmoothing": {
       "en": "Image smoothing",
-      "zh": "图片平滑处理",
+      "zh": "（背景设置）图像平滑",
       "ko": "이미지 부드럽게 처리"
     },
     "lockRot": {
       "en": "Rotation lock (background)",
-      "zh": "旋转锁定(背景)",
+      "zh": "（背景设置）旋转锁定",
       "ko": "회전 잠금(배경)"
     },
     "loopBG": {
@@ -287,42 +287,42 @@
     },
     "scalingRatio": {
       "en": "Scaling ratio",
-      "zh": "缩放比例",
+      "zh": "（背景设置）缩放比例",
       "ko": "확대 축소 비율"
     },
     "relativeTo": {
       "en": "Association",
-      "zh": "关联",
+      "zh": "（摄像头设置）关联到",
       "ko": "연결"
     },
     "position": {
       "en": "Position offset",
-      "zh": "位置偏移",
+      "zh": "（摄像头设置）位置",
       "ko": "위치 오프셋"
     },
     "rotation": {
       "en": "Rotation",
-      "zh": "旋转",
+      "zh": "（摄像头设置）角度",
       "ko": "회전"
     },
     "zoom": {
       "en": "Zoom",
-      "zh": "缩放",
+      "zh": "（摄像头设置）缩放",
       "ko": "카메라 줌"
     },
     "pulseOnFloor": {
-      "en": "Sticky track",
-      "zh": "黏性轨道",
+      "en": "Pulse camera at tiles",
+      "zh": "（摄像头设置）触发方块时摄像头移动",
       "ko": "점착성 트랙"
     },
     "bgVideo": {
       "en": "(Optional) Video background file",
-      "zh": "(可选)视频背景文件",
+      "zh": "（可选）视频背景",
       "ko": "(선택 사항) 비디오 배경 파일"
     },
     "loopVideo": {
       "en": "Whether to play repeatedly",
-      "zh": "是否重复播放",
+      "zh": "循环视频",
       "ko": "반복 재생할지 여부"
     },
     "vidOffset": {
@@ -332,12 +332,12 @@
     },
     "floorIconOutlines": {
       "en": "Floor icon outlines",
-      "zh": "地板图标轮廓",
+      "zh": "方块图标描边",
       "ko": "바닥 아이콘 윤곽선"
     },
     "stickToFloors": {
       "en": "Stick to floors",
-      "zh": "吸附到地板",
+      "zh": "粘性方块",
       "ko": "바닥에 달라붙기"
     },
     "planetEase": {
@@ -347,12 +347,12 @@
     },
     "planetEaseParts": {
       "en": "Planet easing parts",
-      "zh": "星球缓速部分",
+      "zh": "轨道缓速部分",
       "ko": "행성 이징 부분"
     },
     "planetEasePartBehavior": {
       "en": "Planet easing behavior",
-      "zh": "星球缓速行为",
+      "zh": "缓速部分行为",
       "ko": "행성 이징 동작"
     },
     "defaultTextColor": {
@@ -367,22 +367,22 @@
     },
     "congratsText": {
       "en": "Clear prompt congratulatory text",
-      "zh": "通关提示恭喜文本",
+      "zh": "“恭喜！”文本",
       "ko": "클리어 프롬프트 축하 텍스트"
     },
     "perfectText": {
       "en": "Pure Perfect! prompt text",
-      "zh": "完美无瑕! 提示文本",
+      "zh": "“完美无瑕！”文本",
       "ko": "퍼펙트! 프롬프트 텍스트"
     },
     "legacyFlash": {
       "en": "Enable legacy Flash",
-      "zh": "启用旧版Flash",
+      "zh": "启用旧版闪光",
       "ko": "레거시 플래시 사용"
     },
     "legacyCamRelativeTo": {
       "en": "Enable legacy camera association",
-      "zh": "启用旧版摄像机关联",
+      "zh": "启用旧版摄像头关联",
       "ko": "레거시 카메라 연결 사용"
     },
     "legacySpriteTiles": {
@@ -402,7 +402,7 @@
     },
     "decorations": {
       "en": "Decorations",
-      "zh": "装饰物",
+      "zh": "装饰",
       "ko": "장식물"
     },
     "floor": {
@@ -417,7 +417,7 @@
     },
     "filter": {
       "en": "Specify filter",
-      "zh": "指定滤镜",
+      "zh": "滤镜",
       "ko": "필터 지정"
     },
     "enabled": {
@@ -427,12 +427,12 @@
     },
     "ease": {
       "en": "Specify easing",
-      "zh": "指定缓速",
+      "zh": "缓速",
       "ko": "이징 지정"
     },
     "disableOthers": {
       "en": "Disable others",
-      "zh": "禁止其他",
+      "zh": "禁止其它",
       "ko": "다른 항목 비활성화"
     },
     "duration": {
@@ -462,17 +462,17 @@
     },
     "speedType": {
       "en": "Speed type (Bpm | Multiplier)",
-      "zh": "速度类型(Bpm | 倍率)",
+      "zh": "速度类型 (Bpm | Multiplier)",
       "ko": "속도 유형(Bpm | 배율)"
     },
     "beatsPerMinute": {
       "en": "BPM. Beats per minute",
-      "zh": "BPM.每分钟节拍数",
+      "zh": "每分钟节拍数",
       "ko": "BPM. 분당 비트 수"
     },
     "bpmMultiplier": {
       "en": "Speed multiplier",
-      "zh": "速度倍率",
+      "zh": "倍率",
       "ko": "속도 배율"
     },
     "angleCorrectionDir": {
@@ -482,7 +482,7 @@
     },
     "scale": {
       "en": "Scale",
-      "zh": "缩放",
+      "zh": "缩放大小",
       "ko": "크기 조절"
     },
     "opacity": {
@@ -502,32 +502,32 @@
     },
     "justThisTile": {
       "en": "Just this tile",
-      "zh": "仅作用到当前砖块",
+      "zh": "仅改变该方块",
       "ko": "현재 타일만 적용"
     },
     "startTile": {
       "en": "Start tile",
-      "zh": "开始砖块",
+      "zh": "起始方块",
       "ko": "시작 타일"
     },
     "endTile": {
       "en": "End tile",
-      "zh": "结束砖块",
+      "zh": "结束方块",
       "ko": "종료 타일"
     },
     "gapLength": {
       "en": "Gap length",
-      "zh": "间隔长度",
+      "zh": "间隙长度",
       "ko": "간격 길이"
     },
     "decText": {
       "en": "Decoration text",
-      "zh": "装饰文本",
+      "zh": "文本",
       "ko": "장식 텍스트"
     },
     "settings": {
       "en": "Level settings",
-      "zh": "谱面设置",
+      "zh": "关卡设置",
       "ko": "레벨 설정"
     },
     "tag": {
