@@ -1,12 +1,12 @@
 {
   "comment": {
     "angleData": {
-      "en": "Direction data",
+      "en": "Angle data",
       "zh": "方向数据",
       "ko": "방향 데이터"
     },
     "pathData": {
-      "en": "Direction data (old)",
+      "en": "Angle data (Old)",
       "zh": "方向数据（旧）",
       "ko": "방향 데이터(구)"
     },
@@ -37,7 +37,7 @@
     },
     "author": {
       "en": "Level author, separate with commas if multiple",
-      "zh": "关卡作者",
+      "zh": "关卡作者，多个时以逗号分隔",
       "ko": "레벨 제작자, 여러 명일 경우 쉼표로 구분"
     },
     "separateCountdownTime": {
@@ -47,7 +47,7 @@
     },
     "previewImage": {
       "en": "Preview portal image",
-      "zh": "传送门图片",
+      "zh": "预览传送门图像",
       "ko": "미리보기 포탈 이미지"
     },
     "previewIcon": {
@@ -132,17 +132,17 @@
     },
     "hitsound": {
       "en": "Hit sound",
-      "zh": "打拍声",
+      "zh": "击打音效",
       "ko": "히트 사운드"
     },
     "hitsoundVolume": {
       "en": "Hit sound volume",
-      "zh": "打拍声音量",
+      "zh": "击打音效音量",
       "ko": "히트 사운드 볼륨"
     },
     "countdownTicks": {
       "en": "Countdown duration",
-      "zh": "计数滴答",
+      "zh": "倒计时节拍数",
       "ko": "카운트다운 길이"
     },
     "songURL": {
@@ -167,7 +167,7 @@
     },
     "trackColorAnimDuration": {
       "en": "Track color animation duration",
-      "zh": "色彩动画间隔",
+      "zh": "轨道颜色动画时长",
       "ko": "트랙 색상 애니메이션 길이"
     },
     "trackColorPulse": {
@@ -207,7 +207,7 @@
     },
     "beatsAhead": {
       "en": "Track appearance beats",
-      "zh": "轨道动画前节拍",
+      "zh": "轨道提前出现节拍",
       "ko": "트랙 나타남 비트"
     },
     "trackDisappearAnimation": {
@@ -217,7 +217,7 @@
     },
     "beatsBehind": {
       "en": "Track disappearance beats",
-      "zh": "轨道动画后节拍",
+      "zh": "轨道延迟消失节拍",
       "ko": "트랙 사라짐 비트"
     },
     "backgroundColor": {
@@ -232,22 +232,22 @@
     },
     "showDefaultBGTile": {
       "en": "Show default background tile",
-      "zh": "显示教程背景图案",
+      "zh": "显示默认背景方块",
       "ko": "기본 배경 타일 표시"
     },
     "defaultBGTileColor": {
       "en": "Default background tile color",
-      "zh": "教程背景图案颜色",
+      "zh": "默认背景方块颜色",
       "ko": "기본 배경 타일 색상"
     },
     "defaultBGShapeType": {
       "en": "Default background shape type",
-      "zh": "教程背景图形类型",
+      "zh": "默认背景图形类型",
       "ko": "기본 배경 모양 유형"
     },
     "defaultBGShapeColor": {
       "en": "Default background shape color",
-      "zh": "教程背景图形颜色",
+      "zh": "默认背景图形颜色",
       "ko": "기본 배경 모양 색상"
     },
     "bgImage": {
@@ -262,7 +262,7 @@
     },
     "parallax": {
       "en": "Parallax",
-      "zh": "（背景设置）平行",
+      "zh": "（背景设置）视差",
       "ko": "패럴랙스"
     },
     "bgDisplayMode": {
@@ -272,7 +272,7 @@
     },
     "imageSmoothing": {
       "en": "Image smoothing",
-      "zh": "（背景设置）图像平滑",
+      "zh": "（背景设置）图像平滑处理",
       "ko": "이미지 부드럽게 처리"
     },
     "lockRot": {
@@ -312,7 +312,7 @@
     },
     "pulseOnFloor": {
       "en": "Pulse camera at tiles",
-      "zh": "（摄像头设置）触发方块时摄像头移动",
+      "zh": "（摄像头设置）在方块处摄像头脉冲",
       "ko": "점착성 트랙"
     },
     "bgVideo": {
@@ -467,7 +467,7 @@
     },
     "beatsPerMinute": {
       "en": "BPM. Beats per minute",
-      "zh": "每分钟节拍数",
+      "zh": "BPM，每分钟节拍数",
       "ko": "BPM. 분당 비트 수"
     },
     "bpmMultiplier": {
